@@ -4,7 +4,7 @@
       <center>
       <v-card id="quizCard" class="ma-10 pa-5" width="1000" elevation="10" color="white">
         <v-card-title>
-          <h1  id="quiz"><strong>Quiz Genre: Games</strong></h1>
+          <h1  id="quiz"><strong>Quiz Genre: History</strong></h1>
         </v-card-title>
         <quiz @quiz-completed="handleQuizCompleted" :key="quizKey" id="quiz"/>
      
